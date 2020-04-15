@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chatbox</title>
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-    <style></style>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chatbox</title>
+    
   </head>
   <body>
     <div class="status-bar">
@@ -16,6 +17,7 @@
         <i class="far fa-clock"></i>
         <i class="far fa-volume-mute"></i>
         <i class="fa fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
         <i class="fa fa-battery-full"></i>
       </div>
     </div>
@@ -38,6 +40,7 @@
     <main class="chats">
         <ul class="chats__list">
             <li class="chats__chat chat">
+              <a href="chat.html">
                 <div class="chat__column">
                     <div class="chat__content">
                         <span class="chat__username">Lynn</span>
@@ -48,6 +51,7 @@
                 <div class="chat__column">
                     <span class="chat__timespan">Yesterday</span>
                 </div>
+              </a>
             </li>
         </ul>
     </main>
