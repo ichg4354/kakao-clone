@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Find</title>
-    
   </head>
   <body>
     <div class="status-bar">
@@ -28,8 +27,11 @@
         <span class="header__icons">
           <i class="fas fa-search"></i>
         </span>
+
         <span class="header__icons">
-          <i class="fas fa-cog"></i>
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
@@ -66,9 +68,9 @@
         <h5 class="find_friends-title"></h5>
         <li class="find__friends friend friend--lg">
           <div class="friend__column">
-              <img src="images/avatars.jpg" class="g-avatar friend__avatar">
+            <img src="images/avatars.jpg" class="friend__avatar" />
             <div class="friend__content">
-                <span class="friend__name">Luis</span>
+              <span class="friend__name">Luis</span>
             </div>
           </div>
           <div class="friend__column">
@@ -80,21 +82,29 @@
       </ul>
     </main>
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__list-item"><a href="friends.html" class="nav__list-link">
-                <i class="far fa-user"></i>
-            </a></li>
-            <li class="nav__list-item"><a href="index.html" class="nav__list-link">
-                <i class="far fa-comment"></i>
-            </a>
-            </li>
-            <li class="nav__list-item"><a href="#" class="nav__list-link">
-                <i class="fas fa-search"></i>
-            </a></li>
-            <li class="nav__list-item"><a href="more.html" class="nav__list-link">
-                <i class="fas fa-ellipsis-h"></i>
-            </a></li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
   </body>
 </html>
