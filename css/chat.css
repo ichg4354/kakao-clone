@@ -1,0 +1,124 @@
+.chat__write {
+  background-color: #f7f7f7;
+  position: fixed;
+  bottom: 50px;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-radius: 30px;
+  margin: auto auto;
+  right: 0;
+  left: 0;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.chat__body {
+  padding: 0;
+}
+.chat__chat {
+  padding: 0;
+  background-image: url(../images/beanstalk.png);
+  height: 100vh;
+  padding: 15px;
+  text-align: center;
+}
+.chat__chat .chat__timespan {
+  padding: 5px 5px;
+  justify-content: center;
+  display: inline-block;
+  border-radius: 30px;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 7px 10px 22px -9px rgba(24,42,51,0.56);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.8;
+
+}
+.chat__chat .incomming-message {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.chat__chat .sent-message{
+  margin-bottom: 25px;
+}
+.incomming-message .message_bubble{
+  border-bottom-left-radius: 0;
+  background-image: linear-gradient(to right, #d9a7c7,#fffcdc);
+}
+.sent-message .message_bubble{
+  border-bottom-right-radius: 0;
+  background-image: linear-gradient(to left, #1c92d2,#f2fcfe);
+}
+.chat__chat .sent-message {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat__body .header {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+.chat__write {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat__write input {
+  padding: 10px 10px;
+  width: 95%;
+  border: none;
+  align-self: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.chat__write input:focus {
+  outline: none;
+}
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+
+.chat__write-column {
+  font-size: 21px;
+}
+
+.chat__write-coulmn:first {
+  margin-right: 5px;
+}
+.message__avatar {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.message_bubble{
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 7px 10px 22px -9px rgba(24,42,51,0.56);
+  border-radius: 30px;
+  font-size: 14px;
+  color: rgb(52, 62, 97);
+  font-weight: 600;
+
+}
+.message__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.message__author{
+  position: relative;
+  left: -40px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  opacity: 0.8;
+}

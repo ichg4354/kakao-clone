@@ -1,0 +1,18 @@
+.settings__section{
+    padding-top: 20px;
+    border-top: 2px solid #f7f7f7;
+    padding-bottom: 20px;
+}
+.settings__setting{
+    padding: 10px 5px;
+}
+.settings .setting__icon{
+    font-size: 22px;
+    margin-right: 20px;
+    opacity: 0.7;
+}
+.settings__title{
+    opacity: 0.6;
+    font-weight: 300;
+}
+
