@@ -1,0 +1,24 @@
+.tooBig{
+    background-color: #fce006;
+    width: 100%;
+    height: 100%;
+    z-index: 888888;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 28px;    
+    color: white;
+    align-items: center;
+    display: none;
+}
+
+
+@media (min-width: 550px){
+    .tooBig{
+        display: flex;
+    }
+}

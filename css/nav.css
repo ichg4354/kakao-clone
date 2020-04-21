@@ -42,3 +42,20 @@
     color: white;
     border-radius: 50%;
 }
+
+@keyframes fadeIn{
+    from{
+        transform: translateY(80px);
+
+    }
+    to{
+        transform: none;
+    }
+}
+
+.nav{
+    transform: translateY(80px);
+    animation-delay: .5s;
+    animation: fadeIn .5s ease-in forwards;
+
+}
