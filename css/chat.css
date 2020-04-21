@@ -252,7 +252,7 @@
   }
 } */
 
-@keyframes turn {
+/* @keyframes turn {
   from {
     transform: rotateY(1turn);
     box-shadow: 7px 10px 22px -9px rgba(24, 42, 51, 0.56);
@@ -261,7 +261,7 @@
     transform: none;
     box-shadow: 7px 10px 22px -9px rgba(24, 42, 51, 0.56);
   }
-}
+} */
 
 .message__avatar{
   animation: turn 6s infinite;
