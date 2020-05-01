@@ -226,7 +226,7 @@
 }
 
 .chat__timespan{
-  animation: incomeAnimation .5s ease-in forwards;
+  animation: incomeAnimation .5s ease-in fowards;
 }
 .sent-message{
   animation: sentAnimation .5s ease-in;
